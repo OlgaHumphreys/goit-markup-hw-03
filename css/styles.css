@@ -48,6 +48,7 @@ img {
 }
 .nav {
   display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -80,6 +81,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -171,6 +173,7 @@ img {
 .team-item {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 .team-tytle {
   margin-bottom: 72px;
